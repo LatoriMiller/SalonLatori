@@ -1,0 +1,43 @@
+body {
+    background-color: whitesmoke;
+    /* background-color: rgb(241, 216, 184); */
+}
+/*ADD THE SLIDE SHOW AND FOOTER, ADJUST TO TABLET */
+
+/* DESKTOP NAVIGATION CSS */
+.topnav {
+    overflow: hidden;
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Oswald', sans-serif;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+  
+.topnav a:hover {
+  border-bottom: 3px solid goldenrod;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid goldenrod;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* I may need to float this logo to the right OR place in a container */
+.logo { 
+    display: block;
+    margin: 7% auto; 
+} 
+
+/* SLIDE SHOW  CSS */
